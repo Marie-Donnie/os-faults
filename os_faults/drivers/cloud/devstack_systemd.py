@@ -59,7 +59,7 @@ class DevStackSystemdManagement(devstack.DevStackManagement):
         'keystone': {
             'driver': 'systemd_service',
             'args': {
-                'grep': 'keystone-uwsgi',
+                'grep': 'keystone',
                 'systemd_service': 'devstack@keystone',
             }
         },

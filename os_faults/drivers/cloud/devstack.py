@@ -134,7 +134,7 @@ class DevStackManagement(cloud_management.CloudManagement,
         'keystone': {
             'driver': 'process',
             'args': {
-                'grep': 'keystone-',
+                'grep': 'keystone',
                 'restart_cmd': 'sudo service apache2 restart',
                 'terminate_cmd': 'sudo service apache2 stop',
                 'start_cmd': 'sudo service apache2 start',
